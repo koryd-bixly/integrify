@@ -1,0 +1,25 @@
+{
+  "name": "reactintegrify",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "kory donati <koryd@bixly.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "~15.2.1",
+    "jquery": "~3.1.0",
+    "bootstrap": "~3.3.6",
+    "uglify-js": "^1.3.5",
+    "jsSHA": "jssha#^2.2.0"
+  }
+}

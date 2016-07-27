@@ -1,0 +1,16 @@
+{
+  "name": "reactintegrify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bower": "^1.7.9",
+    "i": "^0.3.5",
+    "uglify-js": "^2.7.0"
+  }
+}

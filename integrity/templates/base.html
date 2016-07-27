@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{% load staticfiles pipeline %}
+<html>
+<head>
+{#    {% stylesheet 'bower_installed_css' %}#}
+  <head>
+    <meta charset="utf-8" />
+    <title>Integrify</title>
+      <link rel="stylesheet" href="{% static 'bootstrap/dist/css/bootstrap.min.css'%}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.2.1/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.2.1/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>
+{#    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>#}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/remarkable/1.6.2/remarkable.min.js"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
+  </head>
+    {% block extra_import %}
+    {% endblock %}
+</head>
+<body>
+    {% block body %}
+    {% endblock %}
+
+    <script src="{% static 'jquery/dist/jquery.min.js' %}"></script>
+{#    <script src="{% static 'jsSHA/src/sha.js' %}"></script>#}
+{#    <script src="{% static 'bootstrap/dist/js/bootstrap.min.js' %}"></script>#}
+{#    <script src="{% static 'react/react-with-addons.min.js' %}"></script>#}
+{#    {% javascript 'custom_js' %}#}
+{#    <script src="{% static 'js/set_csrf.js' %}"></script>#}
+    {% block extra_script %}
+    {% endblock %}
+</body>
+</html>
