@@ -1,21 +1,18 @@
 {% extends 'base.html' %}
 {% load static %}
 
+{% block extra_import %}
+    <link rel="stylesheet" href="{% static 'css/integrify.css'%}">
+{% endblock %}
 {% block body %}
+    <div class="text-center home-background container">
     <h1>Integrify</h1>
-    <div id="content"></div>
-{#    <h3>Pate your URL to get started</h3>#}
-{#    <input type="url" id="id-input-url">#}
+    </div>
+        <div class="container" id="content"></div>
+
 {% endblock %}
 
 {% block extra_script %}
-{#     <script src="http://fb.me/react-0.10.0.min.js"></script>#}
-{#    <script type="text/javascript" src="{% static 'js/integrity_url/criptor.js' %}"></script>#}
+    <script src="{% static 'clipboard/dist/clipboard.min.js' %}"></script>
      <script type="text/babel" src="{% static 'js/integrity_url/url-component.js' %}"></script>
-{#    <script type="text/jsx">#}
-{#        ReactDOM.render(#}
-{#                <InputUrl />,#}
-{#                $('#content')#}
-{#        );#}
-{#    </script>#}
 {% endblock %}
