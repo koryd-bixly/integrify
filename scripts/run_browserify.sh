@@ -1,0 +1,1 @@
+./node_modules/browserify/bin/cmd.js -t [ reactify --es6 ] reactintegrify/static/js/integrity_url/url-component.js | ./node_modules/uglify-js/bin/uglifyjs -c > reactintegrify/static/js/bundled/bundleug.js

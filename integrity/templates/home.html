@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% load static %}
+{% load static staticfiles %}
 
 {% block extra_import %}
     <link rel="stylesheet" href="{% static 'css/integrify.css'%}">
@@ -13,6 +13,8 @@
 {% endblock %}
 
 {% block extra_script %}
-    <script src="{% static 'clipboard/dist/clipboard.min.js' %}"></script>
-     <script type="text/babel" src="{% static 'js/integrity_url/url-component.js' %}"></script>
+{#    <script src="{% static 'clipboard/dist/clipboard.min.js' %}"></script>#}
+{#     <script type="text/babel" src="{% static 'js/integrity_url/url-component.js' %}"></script>#}
+{#    <script src="{% static 'js/bundled/bundle4.js' %}"></script>#}
+    <script src="{% static 'js/bundled/bundleug.js' %}"></script>
 {% endblock %}

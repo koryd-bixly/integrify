@@ -10,7 +10,13 @@
   "license": "ISC",
   "dependencies": {
     "bower": "^1.7.9",
+    "browserify": "^13.1.0",
+    "clipboard": "^1.5.12",
     "i": "^0.3.5",
-    "uglify-js": "^2.7.0"
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "reactify": "^1.1.1",
+    "uglify-js": "^2.7.0",
+    "uglifyify": "^3.0.2"
   }
 }
